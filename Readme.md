@@ -1,7 +1,6 @@
 # Личный проект «Глейси»
 
 * Студент: [Anton Detskai](https://up.htmlacademy.ru/htmlcss/13/user/27445).
-* Наставник: `Неизвестно`.
 
 ---
 
