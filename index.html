@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="container">
       <header class="main-header">
         <nav class="main-navigation">
           <ul>
-            <li><figure  class="index-logo"><img src="img/logo.svg" height="64" width="154" alt="gllacy-shop" /></figure></li>
+            <li><figure  class="index-logo"><img src="img/logo.svg" height="63" width="153" alt="Gllacy Shop" /></figure></li>
             <li>
               <a href="#">Каталог</a>
               <ul>
@@ -59,7 +60,7 @@
       </header>
       <main class="container">
         <div class="slider slider-first">
-          <h1>Крем-брюле и пломбир с малиновым джемом</h1>
+          <h1 class="slider-title">Крем-брюле и пломбир с малиновым джемом</h1>
           <a class="btn" href="#">Давайте оба!</a>
           <input type="radio" name="slider" id="slider-1" checked="checked">
           <label for="slider-1"></label>
@@ -74,7 +75,7 @@
           <div></div>
         </div>
         <div class="slider slider-second">
-          <h1>Шоколадный пломбир и лимонный сорбет</h1>
+          <h1 class="slider-title">Шоколадный пломбир и лимонный сорбет</h1>
           <a class="btn" href="#">Давайте оба!</a>
           <input type="radio" name="slider" id="slider-1">
           <label for="slider-1"></label>
@@ -89,7 +90,7 @@
           <div></div>
         </div>
         <div class="slider slider-third">
-          <h1>Пломбир с помадкой и клубничный щербет</h1>
+          <h1 class="slider-title">Пломбир с помадкой и клубничный щербет</h1>
           <a class="btn" href="#">Давайте оба!</a>
           <input type="radio" name="slider" id="slider-1">
           <label for="slider-1"></label>
@@ -118,32 +119,30 @@
         <div class="icecream">
           <div class="icecream-item">
             <div class="icecream-image">
-              <img src="http://placehold.it/270x270" alt="" />
+              <img src="img/icecream-1.jpg" height="267" width="267" alt="icecream-item" />
             </div>
-            <a href="#" class="prise">310 Р<span class="kilo">/кг</span></a>
+            <p class="prise">310 Р<span class="kilo">/кг</span></p>
             <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
           </div>
           <div class="icecream-item">
             <div class="icecream-image">
-              <img src="http://placehold.it/270x270" alt="" />
+              <img src="img/icecream-2.jpg" height="267" width="267" alt="icecream-item" />
             </div>
-            <a href="#" class="prise">380 Р<span class="kilo">/кг</span></a>
+            <p class="prise">380 Р<span class="kilo">/кг</span></p>
             <a href="#">Сливочно-кофейное с кусочками шоколада</a>
           </div>
           <div class="icecream-item">
             <div class="icecream-image">
-              <img src="http://placehold.it/270x270" alt="" />
+              <img src="img/icecream-3.jpg" height="267" width="267" alt="icecream-item" />
             </div>
-            <a href="#" class="prise">355 Р<span class="kilo">/кг</span></a>
+            <p class="prise">355 Р<span class="kilo">/кг</span></p>
             <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
           </div>
           <div class="icecream-item">
-            <div class="icecream-hit">
-            </div>
             <div class="icecream-image">
-              <img src="http://placehold.it/270x270" alt="" />
+              <img src="img/icecream-4.jpg" height="267" width="267" alt="icecream-item" />
             </div>
-            <a href="#" class="prise">415  Р<span class="kilo">/кг</span></a>
+            <p class="prise">415  Р<span class="kilo">/кг</span></p>
             <a href="#">Сливочное крем-брюле с карамельной подливкой</a>
           </div>
         </div>
@@ -177,7 +176,7 @@
         </div>
         <div class="map">
           <div class="map-canvas">
-            <figure><img src="" alt="" /></figure>
+            <figure><img src="img/map.jpg" height="430" width="1200" alt="map" /></figure>
           </div>
           <div class="map-content">
             <span class="map-content-text">
@@ -207,7 +206,7 @@
           </ul>
         </section>
         <section class="footer-copyright">
-          <figure><img src="" alt="" /></figure>
+          <figure><img src="img/html-academy.svg" height="37" width="108" alt="html acacdemy" /></figure>
           <span>Сделано в: <a href="https://htmlacademy.ru">HTML Academy</a> © 2016</span>
         </section>
       </footer>

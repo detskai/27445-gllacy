@@ -1,11 +1,24 @@
 body{
-
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  line-height: 22px;
+  background-color: #849d8f;
 }
 
-h1{
+h1.slider-title{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60.35px;
+  color: #ffffff;
+
 
 }
 
 h2{
-
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 41px;
+  color: #ffffff;
 }
